@@ -12,7 +12,7 @@ Incluye:
 ### Librerías utilizadas:
 - [**Emotion**](https://emotion.sh/docs/introduction): para crear los _Styled Components_.
 
-### Versión: 1.0.0
+### Versión: 1.1.0
 
 ### Notas:
 Comando para ejecutar el servidor de desarrollo:
