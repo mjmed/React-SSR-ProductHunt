@@ -1,5 +1,7 @@
 import app from 'firebase/compat/app';
 import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+import 'firebase/compat/storage';
 
 import firebaseConfig from './config';
 
@@ -12,6 +14,8 @@ class Firebase {
         }
 
         this.auth = app.auth();     // habilita la autenticación
+        this.db = app.firestore();
+        this.storage = app.storage();
     }
 
     // registra un usuario

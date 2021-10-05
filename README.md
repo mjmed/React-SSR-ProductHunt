@@ -11,8 +11,9 @@ Incluye:
 
 ### Librerías utilizadas:
 - [**Emotion**](https://emotion.sh/docs/introduction): para crear los _Styled Components_.
+- [**react-firebase-file-uploader**](https://www.npmjs.com/package/react-firebase-file-uploader): para subir imagenes al storage de Firebase.
 
-### Versión: 1.1.0
+### Versión: 1.2.0
 
 ### Notas:
 Comando para ejecutar el servidor de desarrollo:
