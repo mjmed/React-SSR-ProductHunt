@@ -16,6 +16,7 @@
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "babel-plugin-emotion": "^11.0.0",
+    "date-fns": "^2.25.0",
     "firebase": "^9.0.2",
     "firebase-admin": "^9.11.1",
     "next": "11.1.2",
