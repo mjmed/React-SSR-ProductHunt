@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
@@ -5,6 +6,8 @@ import styled from '@emotion/styled';
 
 import formatDistanceToNow from 'date-fns/formatDistanceToNow';
 import { es } from 'date-fns/locale';
+
+import Link from 'next/link';
 
 
 const Producto = styled.li`
@@ -107,7 +110,9 @@ const DetallesProducto = ({ producto }) => {
                 </div>
 
                 <div>
-                    <Titulo>{ nombre }</Titulo>
+                    <Link href="/productos/[id]" as={`/productos/${ id }`} >
+                        <Titulo>{ nombre }</Titulo>
+                    </Link>
 
                     <TextoDescripcion>{ descripcion }</TextoDescripcion>
 
